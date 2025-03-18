@@ -427,7 +427,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
         hPen = CreatePen(PS_SOLID, 3, RGB(0, 0, 0));
         SelectObject(hdc, hPen);
 
-        LoadDataFromFile(L"D:\\progVS\\rocket\\rocket\\trajectory.txt");
+        LoadDataFromFile(L"C:\\Users\\minec\\source\\repos\\rocket\\rocket\\trajectory.txt");
 
         double maxX = *std::max_element(xData.begin(), xData.end());
 
